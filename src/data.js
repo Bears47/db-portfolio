@@ -1,33 +1,32 @@
 export const projects = [
   {
-    title: "React Reserve",
+    title: "React Blog",
     subtitle: "MERN Stack",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "A simple blogging app built with MongoDB, Express, React and Node",
     image: "./project-1.gif",
     link: "https://reactbootcamp.com",
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+    title: "React Portfolio",
+    subtitle: "React",
+    description: "A portfolio app to showcase my skills.",
     image: "./project-2.gif",
     link: "https://reactbootcamp.com",
   },
   {
-    title: "DevChat",
-    subtitle: "React and Firebase",
+    title: "Dataflow File Builder",
+    subtitle: "C# and SQL",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "A desktop app to build industry dataflows. This app integrates push and pulls from SQL data tables and stored procedures.",
     image: "./project-3.gif",
     link: "https://reactbootcamp.com",
   },
   {
-    title: "Epic Todo App",
+    title: "Todo App",
     subtitle: "React Hooks",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "A simple to do app build using React and Airtable as the datastore to pass information to the frontend",
     image: "./project-4.gif",
     link: "https://reactbootcamp.com",
   },
@@ -36,27 +35,27 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
+      "My thanks, especially goes out to Lee Baillie who, under very difficult circumstances, was able to make amendments to the DTC Update scripts after the unexpected changes brought about by the closure of the MRA and the new format of data release by the REC. Given the timescales with which we were presented, it was a remarkable achievement.",
     image: "https://randomuser.me/api/portraits/men/1.jpg",
-    name: "Jesse Hicks",
-    company: "Zoozle",
+    name: "Tony Reid-Anderson",
+    company: "Opus Energy",
   },
   {
     quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/94.jpg",
-    name: "Ruben Alvarez",
-    company: "Dooble.io",
+      "My thanks, especially goes out to Lee Baillie who, under very difficult circumstances, was able to make amendments to the DTC Update scripts after the unexpected changes brought about by the closure of the MRA and the new format of data release by the REC. Given the timescales with which we were presented, it was a remarkable achievement.",
+    image: "https://randomuser.me/api/portraits/men/1.jpg",
+    name: "Tony Reid-Anderson",
+    company: "Opus Energy",
   },
 ];
 
 export const skills = [
+  "C#",
   "JavaScript",
-  "React",
-  "c#",
-  "Tailwind",
   "Vb.net",
-  "Material UI",
-  "Node",
+  "Node.js",
+  "SQL",
+  "Tailwind",
+  "React",
   "Bootstrap",
 ];
