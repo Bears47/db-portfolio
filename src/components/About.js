@@ -5,12 +5,18 @@ export default function About() {
     <section id="about">
       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
-            Hello, I'm Lee Baillie.
-            <br className="hidden lg:inline-block" />
+          <h6 className="text-base font-mono font-semibold leading-normal ml-1.5 mt-0 mb-1 text-green-400">
+            Hi, my name is
+          </h6>
+          <h1 className="text-6xl font-bold leading-normal ml-1 mt-0 mb-0 text-lavender">
+            Lee Baillie
+          </h1>
+
+          <h1 className="title-font sm:text-4xl text-3xl ml-1.5 mb-4 font-medium text-white">
+            {/* <br className="hidden lg:inline-block" /> */}
             I'm a software developer.
           </h1>
-          <p className="mb-8 leading-relaxed">
+          <p className="mb-8 ml-1.5 leading-relaxed">
             {/* Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
             laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
             Laborum, voluptas natus? */}
@@ -19,12 +25,12 @@ export default function About() {
             platforms I’ve also been a mentor and technical lead for multiple
             projects across different industries.
           </p>
-          <div className="flex justify-center">
+          <div className="flex justify-center ml-1.5">
             <a
               href="#contact"
               className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg"
             >
-              Work with me
+              Contact me
             </a>
             <a
               href="#projects"

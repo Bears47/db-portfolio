@@ -14,7 +14,8 @@ export default function Skills() {
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
             I've been developing with C# and SQL for over 5 years across various
             projects. Most recently I have embarked on my REACT journey which I
-            am very excited about. I love the code and the community.
+            am very excited about. Here are the technologies I've been working
+            with.
           </p>
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">

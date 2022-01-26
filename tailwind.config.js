@@ -1,9 +1,12 @@
 module.exports = {
-  content: [
-    "./src/**/*.{js,jsx,,ts,tsx}",
-  ],
+  content: ["./src/**/*.{js,jsx,,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        aquamarine: "#64ffda",
+        lavender: "#ccd6f6",
+      },
+    },
   },
   plugins: [],
-}
+};
