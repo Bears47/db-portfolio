@@ -10,7 +10,7 @@ export const projects = [
   {
     title: "React Portfolio",
     subtitle: "React",
-    description: "A portfolio app to showcase my skills.",
+    description: "My portfolio app built with React and Tailwind.",
     image: "./project-2.gif",
     link: "https://reactbootcamp.com",
   },
@@ -23,10 +23,10 @@ export const projects = [
     link: "https://reactbootcamp.com",
   },
   {
-    title: "Todo App",
-    subtitle: "React Hooks",
+    title: "EDI Manager",
+    subtitle: "C# and SQL",
     description:
-      "A simple to do app build using React and Airtable as the datastore to pass information to the frontend",
+      "A desktop app to send/receive insurance policies in the form of messages via FTP/SFTP.",
     image: "./project-4.gif",
     link: "https://reactbootcamp.com",
   },

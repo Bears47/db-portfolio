@@ -4,8 +4,10 @@ import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
-import Testimonials from "./components/Testimonials";
-import './App.css';
+import Profile from "./components/Profile";
+//import Testimonials from "./components/Testimonials";
+
+import "./App.css";
 
 export default function App() {
   return (
@@ -13,8 +15,9 @@ export default function App() {
       <Navbar />
       <About />
       <Projects />
+      <Profile />
       <Skills />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Contact />
     </main>
   );

@@ -7,63 +7,28 @@ export default function Contact() {
 
   const sendEmail = (e) => {
     e.preventDefault();
-    const SERVICE_ID = "service_q1y32kd";
-    const TEMPLATE_ID = "template_bqaszhb";
-    const USER_ID = "user_oJ9tWspU2XyxXpBS0sIft";
+    const { REACT_APP_USER_ID, REACT_APP_TEMPLATE_ID, REACT_APP_SERVICE_ID } =
+      process.env;
 
-    emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form.current, USER_ID).then(
-      (result) => {
-        console.log(result.text);
-        alert("Message sent!");
-      },
-      (error) => {
-        console.log(error.text);
-        alert(error);
-      }
-    );
+    emailjs
+      .sendForm(
+        `${REACT_APP_SERVICE_ID}`,
+        `${REACT_APP_TEMPLATE_ID}`,
+        form.current,
+        `${REACT_APP_USER_ID}`
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          alert("Message sent!");
+          e.target.reset(); //reset input fields on success
+        },
+        (error) => {
+          console.log(error.text);
+          alert(error);
+        }
+      );
   };
-
-  // const SERVICE_ID = "service_q1y32kd";
-  // const TEMPLATE_ID = "template_7r9m15v";
-  // const USER_ID = "user_oJ9tWspU2XyxXpBS0sIft";
-
-  // const [name, setName] = React.useState("");
-  // const [email, setEmail] = React.useState("");
-  // const [message, setMessage] = React.useState("");
-
-  // function encode(data) {
-  //   return Object.keys(data)
-  //     .map(
-  //       (key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
-  //     )
-  //     .join("&");
-  // }
-
-  // function handleSubmit(e) {
-  //   e.preventDefault();
-  //   // fetch("/", {
-  //   //   method: "POST",
-  //   //   headers: { "Content-Type": "application/x-www-form-urlencoded" },
-  //   //   body: encode({ "form-name": "contact", name, email, message }),
-  //   // })
-  //   //   .then(() => alert("Message sent!"))
-  //   //   .catch((error) => alert(error));
-  // }
-
-  // const handleOnSubmit = (e) => {
-  //   e.preventDefault();
-  //   emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID)
-  //     .then((result) => {
-  //       console.log(result.text);
-  //       alert("Message sent!")
-
-  //     }, (error) => {
-  //       console.log(error.text);
-  //       alert(error)
-
-  //     });
-  //   e.target.reset()
-  // };
 
   return (
     <section id="contact" className="relative">
