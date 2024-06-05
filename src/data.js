@@ -50,12 +50,15 @@ export const testimonials = [
 ];
 
 export const skills = [
-  "C#",
-  "JavaScript",
-  "Vb.net",
-  "Node.js",
-  "SQL",
-  "Tailwind",
-  "React",
-  "Bootstrap",
+  "Painting/Decorating",
+  "Basic Electrical",
+  "Basic Plumbing",
+  "Carpentry",
+];
+
+export const certifications = [
+  "PAT (Portable Appliance Testing)",
+  "Working at Height Certificate",
+  "Dantek Legionella",
+  "UKATA (Asbestos aware",
 ];

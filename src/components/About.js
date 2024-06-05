@@ -9,21 +9,20 @@ export default function About() {
             Hi, my name is
           </h6>
           <h1 className="text-6xl font-bold leading-normal ml-1 mt-0 mb-0 text-lavender">
-            Lee Baillie
+            Darren Baillie
           </h1>
 
           <h1 className="title-font sm:text-4xl text-3xl ml-1.5 mb-4 font-medium text-white">
             {/* <br className="hidden lg:inline-block" /> */}
-            I'm a software developer.
+            I'm a Carpenter Maintenance Technician.
           </h1>
           <p className="mb-8 ml-1.5 leading-relaxed">
             {/* Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
             laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
             Laborum, voluptas natus? */}
-            I’m passionate about development with many years’ experience as a
-            .NET developer. As well as my development experience across various
-            platforms I’ve also been a mentor and technical lead for multiple
-            projects across different industries.
+            Although starting as a suspended ceiling fixer my experience within
+            this field has enabled my skills and knowledge in Maintenance and
+            Compliance to work within the Care Home and Education industry.
           </p>
           <div className="flex justify-center ml-1.5">
             <a

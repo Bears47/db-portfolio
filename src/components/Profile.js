@@ -14,10 +14,9 @@ export default function Profile() {
           </h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
             I am a highly professional individual with many years experience
-            working as a .NET developer and manager within the software and
-            insurance industries. My previous positions have enabled me to
-            develop extensive experience in both independently developing
-            software and managing a team of analysts and developers.
+            working within my field of expertise. My previous positions have
+            enabled me to develop extensive experience and knowledge within the
+            Maintenance and Compliance industry.
           </p>
         </div>
 
@@ -44,7 +43,7 @@ export default function Profile() {
                     href="#link1"
                     role="tablist"
                   >
-                    Opus Energy
+                    Elan - Weston-super-Mare
                   </a>
                 </li>
                 <li className="-mb-px mr-2 flex-auto text-left">
@@ -63,7 +62,7 @@ export default function Profile() {
                     href="#link2"
                     role="tablist"
                   >
-                    Transactor Global Solutions
+                    Country Court Care - Weston-super-Mare
                   </a>
                 </li>
                 <li className="-mb-px mr-2 flex-auto text-left">
@@ -82,7 +81,7 @@ export default function Profile() {
                     href="#link3"
                     role="tablist"
                   >
-                    Transactor Global Solutions
+                    Notaro Care Homes - Weston-super-Mare
                   </a>
                 </li>
               </ul>
@@ -106,23 +105,31 @@ export default function Profile() {
                       className={openTab === 1 ? "block" : "hidden"}
                       id="link1"
                     >
-                      <p className="font-bold text-lavender">
-                        Software Developer
-                      </p>
+                      <p className="font-bold text-lavender">Site Technician</p>
                       <p className="text-gray-400 text-xs mt-1">
-                        2018 - Present
+                        February 2019 - Present
                       </p>
                       <p className="text-gray-400 body-font text-sm">
-                        <br /> Establish a detailed program specification
-                        through discussion with stakeholders and BSA’s.
+                        <br /> Support the Estates team in delivering the
+                        operational site management of the Elan building and
+                        grounds. Ensuring a safe environment for staff and
+                        pupils. Carrying out routine maintenance and compliance
+                        checks including Fire alarm testing ,electrical ,gas and
+                        water systems.
                         <p>
-                          <br /> Work in accordance with Agile, attending daily
-                          scrums and working to two-week sprints
+                          <br /> Work closely with external contractors. Ensure
+                          site activity log books are completed in an accurate
+                          manner and maintained in accordance with current legal
+                          and compliance legislation. Undertake regular site
+                          inspections and building maintenance duties
+                          identifying defects record, repair and maintenance
+                          requirements as appropriate.
                         </p>
                         <p>
-                          <br /> Independently created DTC file Builder, a
-                          desktop application written in C# which builds
-                          industry dataflows.
+                          <br /> Paint and decorate areas within school as
+                          required. Ensure outside play equipment is regularly
+                          inspected. Oversee energy usage and the schools
+                          environmental responsibilities.
                         </p>
                       </p>
                     </div>
@@ -130,29 +137,29 @@ export default function Profile() {
                       className={openTab === 2 ? "block" : "hidden"}
                       id="link2"
                     >
-                      <p className="font-bold text-lavender">
-                        Technical Underwriting Manager/Application Developer
+                      <p className="font-bold text-lavender">Maintenance</p>
+                      <p className="text-gray-400 text-xs mt-1">
+                        March 2015 to February 2019
                       </p>
-                      <p className="text-gray-400 text-xs mt-1">2010 - 2016</p>
                       <p className="text-gray-400 body-font text-sm">
-                        <br /> Managed 22 developers and analysts to ensure that
-                        the software was delivered on time and within budget.
+                        <br /> Routine maintenance checks to include. Water
+                        temperature tests . Fire alarm testing Fire door
+                        checking Hospital bed checking (give training) Emergency
+                        Light testing.
                         <p>
-                          <br /> Oversaw the conceptualising of new projects and
-                          organisation of the company’s work schedules and
-                          workflow which involved determining start dates for
-                          projects and allocating work to employees.
+                          <br /> Ensure all maintenance and grounds equipment
+                          and tools are maintained satisfactory Complete both
+                          planned and reactive maintenance tasks in an efficient
+                          and effective manner within agreed timescales and
+                          standards Undertake small project work as redirected
+                          such as painting/decorating and other tasks
+                          appropriate to skill set.
                         </p>
                         <p>
-                          <br /> Created detailed and summarised management
-                          information reports in order for relevant and high
-                          quality information to be communicated across the
-                          business.
-                        </p>
-                        <p>
-                          <br /> Managed the release of software on a monthly
-                          basis by overseeing the work of those involved to
-                          ensure that the software was released on time.
+                          <br /> Observe safe working practices in carrying out
+                          the required duties and ensure that instructions
+                          specified by technical contractors and manufacturers
+                          are adhered to
                         </p>
                       </p>
                     </div>
@@ -160,23 +167,16 @@ export default function Profile() {
                       className={openTab === 3 ? "block" : "hidden"}
                       id="link3"
                     >
-                      <p className="font-bold text-lavender">EDI Manager</p>
-                      <p className="text-gray-400 text-xs mt-1">2004 - 2010</p>
+                      <p className="font-bold text-lavender">Maintenance</p>
+                      <p className="text-gray-400 text-xs mt-1">
+                        September 2014 to March 2015
+                      </p>
                       <p className="text-gray-400 body-font text-sm">
-                        <br /> Independently created EDI Manager, a desktop
-                        application written in C# which enabled thousands of
-                        policies to be sent to and from insurers in the form of
-                        messages via FTP/SFTP on a daily basis.
-                        <p>
-                          <br /> Tracked EDI message logs by analysing messages
-                          to ensure that they were generated correctly.
-                        </p>
-                        <p>
-                          <br /> Monitored the EDI software to determine whether
-                          any enhancements needed to be made, and where this was
-                          the case, undertook development work within a timely
-                          manner.
-                        </p>
+                        <br /> Undertake all decorating to home. General
+                        plumbing and carpentry. Comply with all health and
+                        safety fire and water regulations. Loller legionella and
+                        cosh. Transportation of residents to and from
+                        appointments.
                       </p>
                     </div>
                   </div>

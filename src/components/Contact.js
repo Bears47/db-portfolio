@@ -43,7 +43,7 @@ export default function Contact() {
             marginHeight={0}
             marginWidth={0}
             style={{ filter: "opacity(0.7)" }}
-            src="https://www.google.com/maps/embed/v1/place?q=mk168bh&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+            src="https://www.google.com/maps/embed/v1/place?q=BS229PT&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
           />
 
           <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
@@ -52,8 +52,8 @@ export default function Contact() {
                 ADDRESS
               </h2>
               <p className="mt-1 mb-2">
-                Newport Pagnell, <br />
-                Milton Keynes
+                Weston-super-Mare, <br />
+                BS22
               </p>
             </div>
             <div className="px-6 mt-4 lg:mt-0">
@@ -61,7 +61,7 @@ export default function Contact() {
                 EMAIL
               </h2>
               <a className="text-indigo-400 leading-relaxed">
-                lw.baillie@gmail.com
+                littlelegsx1@live.co.uk
               </a>
               {/*               <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                 PHONE
