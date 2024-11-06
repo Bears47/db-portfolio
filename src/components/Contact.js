@@ -1,13 +1,13 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useRef } from "react";
-import emailjs from "emailjs-com";
+import emailjs from '@emailjs/browser';
 
 export default function Contact() {
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
-    const { REACT_APP_USER_ID, REACT_APP_TEMPLATE_ID, REACT_APP_SERVICE_ID } =
+    const { REACT_APP_SERVICE_ID,  REACT_APP_TEMPLATE_ID, REACT_APP_PUBLIC_KEY } =
       process.env;
 
     emailjs
@@ -15,7 +15,7 @@ export default function Contact() {
         `${REACT_APP_SERVICE_ID}`,
         `${REACT_APP_TEMPLATE_ID}`,
         form.current,
-        `${REACT_APP_USER_ID}`
+        `${REACT_APP_PUBLIC_KEY}`
       )
       .then(
         (result) => {
@@ -92,7 +92,7 @@ export default function Contact() {
             <input
               type="text"
               id="form-input-control-last-name"
-              name="from_name"
+              name="email_from"
               className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             />
           </div>
@@ -103,7 +103,7 @@ export default function Contact() {
             <input
               type="email"
               id="form-input-control-email"
-              name="from_email"
+              name="email_from"
               className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             />
           </div>
@@ -116,7 +116,7 @@ export default function Contact() {
             </label>
             <textarea
               id="form-textarea-control-opinion"
-              name="from_message"
+              name="message"
               className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
             />
           </div>
