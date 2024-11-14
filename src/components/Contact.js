@@ -7,16 +7,26 @@ export default function Contact() {
 
   const sendEmail = (e) => {
     e.preventDefault();
-    const { REACT_APP_SERVICE_ID,  REACT_APP_TEMPLATE_ID, REACT_APP_PUBLIC_KEY } =
-      process.env; 
+    // const { REACT_APP_SERVICE_ID,  REACT_APP_TEMPLATE_ID, REACT_APP_PUBLIC_KEY } =
+    //   process.env; 
 
-    emailjs
-      .sendForm(
-        `${REACT_APP_SERVICE_ID}`,
-        `${REACT_APP_TEMPLATE_ID}`,
-        form.current,
-        `${REACT_APP_PUBLIC_KEY}`
-      )
+    // emailjs
+    //   .sendForm(
+    //     `${REACT_APP_SERVICE_ID}`,
+    //     `${REACT_APP_TEMPLATE_ID}`,
+    //     form.current,
+    //     `${REACT_APP_PUBLIC_KEY}`
+    //   )
+
+    emailjs.sendForm(
+      process.env.REACT_APP_SERVICE_ID,
+      process.env.REACT_APP_TEMPLATE_ID,
+      form.current,
+      process.env. REACT_APP_PUBLIC_KEY 
+    )
+
+
+
       .then(
         (result) => {
           // console.log(JSON.stringify(result.text));
