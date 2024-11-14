@@ -8,7 +8,7 @@ export default function Contact() {
   const sendEmail = (e) => {
     e.preventDefault();
     const { REACT_APP_SERVICE_ID,  REACT_APP_TEMPLATE_ID, REACT_APP_PUBLIC_KEY } =
-      process.env;
+      process.env; 
 
     emailjs
       .sendForm(
@@ -19,14 +19,14 @@ export default function Contact() {
       )
       .then(
         (result) => {
-          console.log(result.text);
+          console.log(JSON.stringify(result.text));
           alert("Message sent!");
           e.target.reset(); //reset input fields on success
         },
         (error) => {
-          console.log(error.text);
-          alert(error);
-        }
+          console.log(JSOn.stringify(error.text));
+          alert(error);  
+        } 
       );
   };
 
