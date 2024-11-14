@@ -21,7 +21,7 @@ export default function Contact() {
         (result) => {
           // console.log(JSON.stringify(result.text));
           alert("Message sent!");
-          e.target.reset(); //reset input fields on success
+          // e.target.reset(); //reset input fields on success
         },
         (error) => {
           // console.log(JSON.stringify(error.text));
