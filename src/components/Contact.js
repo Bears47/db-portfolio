@@ -24,7 +24,7 @@ export default function Contact() {
           e.target.reset(); //reset input fields on success
         },
         (error) => {
-          console.log(JSOn.stringify(error.text));
+          console.log(JSON.stringify(error.text));
           alert(error);  
         } 
       );
