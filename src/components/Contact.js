@@ -20,12 +20,12 @@ export default function Contact() {
       .then(
         (result) => {
           // console.log(JSON.stringify(result.text));
-          alert("Message sent!");
-          // e.target.reset(); //reset input fields on success
+          alert ( JSON.stringify("Message sent!"));
+          e.target.reset(); //reset input fields on success
         },
         (error) => {
           // console.log(JSON.stringify(error.text));
-          alert(error);  
+          alert( JSON.stringify(  error));  
         } 
       );
   };
